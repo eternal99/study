@@ -10,6 +10,5 @@ public:
 
 protected:
 	string m_name;
-
 private:
 };

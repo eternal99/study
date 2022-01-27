@@ -6,7 +6,7 @@ class Fruit
 {
 public:
 	Fruit(string);
-	void Show();
+	virtual void Show();
 
 protected:
 	string m_name;

@@ -1,14 +1,14 @@
 #pragma once
-#include "apple.h"
+#include "fruit.h"
 #include <iostream>
 #include <list>
 using namespace std;
 class Box {
 	public:
 		Box(string);
-		void Add(Apple *);
+		void Add(Fruit *);
 		void Show();
 	protected:
-		list<Apple *> * stuff;
+		list<Fruit *> * stuff;
 		string m_name;
 };
